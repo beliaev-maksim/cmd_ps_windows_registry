@@ -17,3 +17,5 @@ SetACL.exe -on "HKEY_CLASSES_ROOT\Drive\shell\Powershell\command" -ot reg -actn 
 SetACL.exe -on "HKEY_CLASSES_ROOT\Drive\shell\Powershell\command" -ot reg -actn ace -ace "n:Administrators;p:full"
 
 reg import add_powershell.reg
+
+reg import add_cmd.reg
